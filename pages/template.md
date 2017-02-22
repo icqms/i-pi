@@ -6,7 +6,7 @@ subheadline: "SubHeadline"
 teaser: "Here the teaser goes!"
 permalink: "/template-1234/"
 header:
-   image_fullwidth: "water-pimd.jpg"
+   image_fullwidth: "wpig6_blue.jpg"
 ---
 
 To see how this page is looking just add "/template-1234/" to the

@@ -3,7 +3,7 @@ layout: page
 show_meta: false
 title: "Tutorials"
 header:
-   image_fullwidth: "water-pimd.jpg"
+   image_fullwidth: "wpig6_blue.jpg"
 permalink: "/resources/tutorials/"
 ---
 
