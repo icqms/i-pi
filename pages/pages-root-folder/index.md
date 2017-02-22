@@ -75,6 +75,7 @@ As of today, the following codes provide out-of-the-box an i-PI interface
 [DFTB+](http://www.dftb-plus.info/),
 [Lammps](http://lammps.sandia.gov/),
 [QuatumEspresso](http://quantum-espresso.org),
-[Siesta](http://departments.icmab.es/leem/siesta/).
+[Siesta](http://departments.icmab.es/leem/siesta/),
+[FHI-aims](https://aimsclub.fhi-berlin.mpg.de/).
 If you are interested in interfacing your code to i-PI please get in touch,
 we are always glad to help!
