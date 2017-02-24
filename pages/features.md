@@ -2,6 +2,7 @@
 layout: page
 show_meta: false
 title: "Features"
+teaser: ""
 header:
 image_fullwidth: "wpig6_blue.jpg"
 permalink: "/about/features/"
@@ -24,19 +25,22 @@ to your manuscript!
 
 TODO: work out how to have copiable bibtex
 
-Path Integrals at Constant Pressure
------------------------------------
+### Path Integrals at Constant Pressure
+
 Main contributors: Michele Ceriotti, Joshua More
-Implementation: ipi main paper!
-Theory: martyna & C (initial ideas)
+*Implementation:* ipi main paper!
+
+*Theory:* martyna & C (initial ideas)
         bussi zykova (NPT split Trotter factorization)
         bussi raiteri (variable cell)
 
-Path Integral Molecular Dynamics
---------------------------------
-Main contributors: Michele Ceriotti, Joshua More
-Implementation: ipi main paper!
-Theory: Feynman-Hibbs book, Tuckerman book statmech
+### Path Integral Molecular Dynamics
+
+*Main contributors:* Michele Ceriotti, Joshua More
+
+*Implementation:* ipi main paper!
+
+*Theory:* Feynman-Hibbs book, Tuckerman book statmech
 
 
 
