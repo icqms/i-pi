@@ -31,7 +31,9 @@ decouple the problem of evolving the ionic positions to sample the
 appropriate thermodynamic ensemble and the problem of computing the
 inter-atomic forces.
 
--> ![iPi-logo]({{ site.urlimg }}ipi-logo-alpha.png) <-
+<p align="center">
+  <img src="{{ site.urlimg }}ipi-logo-alpha.png" alt="iPi-logo" />
+</p>
 
 The implementation is based on a client-server paradigm, where i-PI
 acts as the server and deals with the propagation of the nuclear
