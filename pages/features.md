@@ -1,10 +1,10 @@
 ---
 layout: page
 show_meta: false
-title: "Tutorials"
+title: "Features"
 header:
    image_fullwidth: "wpig6_blue.jpg"
-permalink: "/resources/tutorials/"
+permalink: "/resources/features/"
 ---
 
 The i-PI distribution contains a number of examples and a simple

@@ -117,8 +117,7 @@ body.video cite { color: #fff; }
 
 @media #{$medium-only} {
     #logo img {
-        margin-top: 10px;
-        margin-right: 0px;
+        margin-top: 60px;
     }
     #masthead {
         height: 280px;
@@ -142,7 +141,6 @@ body.video cite { color: #fff; }
 @media #{$large-only} {
     #logo img {
         margin-top: 80px;
-        margin-left: 650px;
     }
     #masthead {
         height: 310px;
@@ -165,8 +163,7 @@ body.video cite { color: #fff; }
 
 @media #{$xlarge-up} {
     #logo img {
-        margin-top: 11px;
-        margin-left: 80px;
+        margin-top: 110px;
     }
     #masthead {
         height: 380px;

@@ -45,7 +45,7 @@ urlimg: 'http://ipi-code.org/images/'
 google_analytics: 'UA-92453227-1'
 
 # Logo size is 600x80 pixels
-logo: "ipi-logo-alpha.png"
+logo: "ipi-logo-w.png"
 
 # Gems
 gems:

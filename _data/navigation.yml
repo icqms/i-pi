@@ -2,6 +2,8 @@
   url: "/"
   side: left
   dropdown:
+  - title: "Features"
+    url: "/about/features/"
   - title: "The socket interface"
     url: /about/interface/
   - title: "Behind the code"
