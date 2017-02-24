@@ -4,7 +4,8 @@ show_meta: false
 title: "Features"
 teaser: ""
 header:
-image_fullwidth: "wpig6_blue.jpg"
+   image_fullwidth: "wpig6_blue.jpg"
+
 permalink: "/about/features/"
 ---
 
