@@ -31,7 +31,7 @@ TODO: work out how to have copiable bibtex
 ### Path Integrals at Constant Pressure
 
 *Main contributors:*  Michele Ceriotti, Joshua More  
-*Implementation:* "i-PI: A Python interface for ab initio path integral molecular dynamics simulations" DOI: [10.1016/j.cpc.2013.10.027]( http://dx.doi.org/10.1016/j.cpc.2013.10.027) 
+*Implementation:* "i-PI: A Python interface for ab initio path integral molecular dynamics simulations" DOI: [10.1016/j.cpc.2013.10.027]( http://dx.doi.org/10.1016/j.cpc.2013.10.027)  
 *Theory:* 
  - "Molecular dynamics algorithms for path integrals at constant pressure" DOI: [10.1063/1.478193](http://dx.doi.org/10.1063/1.478193)
  - "Isothermal-isobaric molecular dynamics using stochastic velocity rescaling" DOI: [10.1063/1.3073889](http://dx.doi.org/10.1063/1.3073889)
