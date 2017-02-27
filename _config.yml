@@ -277,3 +277,4 @@ asciidoctor:
 # Sitemap generator
 gems:
   - jekyll-sitemap
+  - jekil-seo-tag
