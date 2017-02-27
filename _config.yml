@@ -272,3 +272,8 @@ asciidoctor:
     source-highlighter: coderay
     coderay-css: style
     icons: font
+
+
+# Sitemap generator
+gems:
+  - jekyll-sitemap
