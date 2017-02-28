@@ -30,6 +30,10 @@ TODO: work out how to have copiable bibtex
 
 ### Path Integrals at Constant Pressure
 
+The constant-pressure implementation allows for arbitrary 
+thermostats to be applied to the cell degrees of freedom, and 
+work in both constant-shape and variable-cell mode. 
+
 **Main contributors:**  Michele Ceriotti, Joshua More  
 **Implementation:**   
 M. Ceriotti, J. More, D. Manolopoulos, *"i-PI: A Python interface for ab initio path integral molecular dynamics simulations"*, Comp. Phys. Comm. 185(3), 1019 (2014)  
@@ -39,7 +43,12 @@ DOI: [10.1016/j.cpc.2013.10.027]( http://dx.doi.org/10.1016/j.cpc.2013.10.027)  
 "Isothermal-isobaric molecular dynamics using stochastic velocity rescaling" DOI: [10.1063/1.3073889](http://dx.doi.org/10.1063/1.3073889)   
 "Reactive force field simulation of proton diffusion in BaZrO<sub>3</sub> using an empirical valence bond approach" DOI: [10.1088/0953-8984/23/33/334213](http://dx.doi.org/10.1088/0953-8984/23/33/334213)  
 
+
 ### Path Integral Molecular Dynamics
+
+The basic PIMD implementation in i-PI relies on a normal-modes
+integrator, and allows setting non-physical masses, so that both
+RPMD and CMD can be easily realized.
 
 *Main contributors:* Michele Ceriotti, Joshua More  
 *Implementation:* ipi main paper!  
