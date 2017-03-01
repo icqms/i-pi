@@ -32,7 +32,7 @@ to your manuscript!
 
 A multiple time step integration scheme allows for integration of different components of forces with different time steps. It becomes advantageous when the total force can be decomposed into a slowly varying expensive part and a rapidly varying cheap part. A larger time step can be used to integrate the former, there by reducing the number of expensive computations.
 
-**Main contributors:** Venkat Kapil, Michele Ceriotti 
+**Main contributors:** Venkat Kapil   
 **Implementation:**  
 V.Kapil, J.VandeVondele, M.Ceriotti *"Accurate molecular dynamics and nuclear quantum effects at low cost by multiple steps in real and imaginary time: using density functional theory to accelerate wavefunction methods"*, J. Chem. Phys. 144, 054111 (2016)  
 DOI: [10.1063/1.4941091](dx.doi.org/10.1063/1.4941091) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.4941091)  
@@ -44,7 +44,7 @@ DOI: [10.1063/1.463137](dx.doi.org/10.1063/1.463137) --- BIBTEX: [fetch](http://
 
 A ring-polymer contraction makes it possible to compute different components of the forces on different number of imaginary time slices. In order to reap maximum benefits, the implementation is fully compatible with the multiple time step integrators.
 
-**Main contributors:** Michele Ceriotti, Venkat Kapil 
+**Main contributors:** Michele Ceriotti, Venkat Kapil   
 **Implementation:**  
 V.Kapil, J.VandeVondele, M.Ceriotti *"Accurate molecular dynamics and nuclear quantum effects at low cost by multiple steps in real and imaginary time: using density functional theory to accelerate wavefunction methods"*, J. Chem. Phys. 144, 054111 (2016)
 DOI: [10.1063/1.4941091](dx.doi.org/10.1063/1.4941091) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.4941091)
@@ -54,7 +54,7 @@ DOI: [10.1063/1.2953308](dx.doi.org/10.1063/1.2953308) --- BIBTEX: [fetch](http:
 
 ### Direct Estimators for Isotope Fractionation (dev)
 
-### Free-energy Perturba
+### Free-energy Perturbation Estimators for Isotope Fractionation
 
 ### Quantum Alchemical Transformation (dev)
 
@@ -92,7 +92,7 @@ Simple yet efficient Langevin thermostat for PIMD, with normal-modes thermostats
 optimally coupled to the ideal ring polymer frequencies 
 
 **Main contributors:** Michele Ceriotti  
-**Implementation:**  
+**Implementation and Theory:**  
 M. Ceriotti, M. Parrinello, T. E. Markland, and D. E. Manolopoulos, *"Efficient stochastic thermostatting of path integral molecular dynamics"* J. Chem. Phys. 133, 124104 (2010).  
 DOI: [10.1063/1.3489925](dx.doi.org/10.1063/1.3489925) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.3489925)  
 
