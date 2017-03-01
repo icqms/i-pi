@@ -24,7 +24,13 @@ Finding these features readily available is saving you weeks of work:
 reward the developers by spending 15 seconds to add one more citation
 to your manuscript!
 
-### Finite-differences Suzuki-Chin PIMD (dev)
+* [Finite-differences Suzuki-Chin PIMD](#finite-differences-suzuki-chin-pimd) (dev)
+
+
+* [Path Integral Molecular Dynamics](#path-integral-molecular-dynamics)
+
+
+### Finite-differences Suzuki-Chin PIMD
 
 ### Reweighting-based high-order PIMD (dev)
 
@@ -48,7 +54,7 @@ A ring-polymer contraction makes it possible to compute different components of 
 **Implementation:**  
 V.Kapil, J.VandeVondele, M.Ceriotti *"Accurate molecular dynamics and nuclear quantum effects at low cost by multiple steps in real and imaginary time: using density functional theory to accelerate wavefunction methods"*, J. Chem. Phys. 144, 054111 (2016)
 DOI: [10.1063/1.4941091](dx.doi.org/10.1063/1.4941091) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.4941091)
-**Theory:**  
+**Theory:**   
 T.Markland, D.E.Manolopoulos *"An efficient ring polymer contraction scheme for imaginary time path integral simulations"*, J. Chem. Phys. 129, 024105 (2008)  
 DOI: [10.1063/1.2953308](dx.doi.org/10.1063/1.2953308) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.2953308)  
 
