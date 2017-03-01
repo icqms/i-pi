@@ -25,8 +25,22 @@ reward the developers by spending 15 seconds to add one more citation
 to your manuscript!
 
 
+### Multiple Time Step integrators
 
-TODO: work out how to have copiable bibtex
+
+### Ring-Polymer Contraction
+
+
+### Generalized Langevin Equation Thermostats
+The Generalized Langevin Equation provides a very flexible framework
+to manipulate the dynamics of a classical system, improving sampling
+efficiency and obtaining quasi-equilibrium ensembles that mimic quantum
+fluctuations. Parameters for the different modes of operation can be
+obtained from the [GLE4MD website](gle4md.org/index.html?page=matrix).
+
+
+### Path-Integral Langevin Equation Thermostats
+
 
 ### Path Integrals at Constant Pressure
 
