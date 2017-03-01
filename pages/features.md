@@ -36,7 +36,19 @@ The Generalized Langevin Equation provides a very flexible framework
 to manipulate the dynamics of a classical system, improving sampling
 efficiency and obtaining quasi-equilibrium ensembles that mimic quantum
 fluctuations. Parameters for the different modes of operation can be
-obtained from the [GLE4MD website](gle4md.org/index.html?page=matrix).
+obtained from the [GLE4MD website](http://gle4md.org/index.html?page=matrix).
+
+**Main contributors:** Michele Ceriotti  
+**Implementation:**  
+M. Ceriotti, G. Bussi, M. Parrinello, *"M. Colored-Noise Thermostats à la Carte"*, J. Chem. Theory Comput. 6, 1170–1180 (2010)  
+DOI: [10.1021/ct900563s](dx.doi.org/10.1021/ct900563s) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1021/ct900563s)  
+**Theory:**  
+*Optimal Sampling Efficiency* ---
+M. Ceriotti, G. Bussi, and M. Parrinello, *"Langevin Equation with Colored Noise for Constant-Temperature Molecular Dynamics Simulations"*, Phys. Rev. Lett. 102, 20601 (2009)  
+DOI: [10.1103/PhysRevLett.102.020601](dx.doi.org/10.1103/PhysRevLett.102.020601) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1103/PhysRevLett.102.020601)  
+*Quantum Thermostat* --- 
+M. Ceriotti, G. Bussi, and M. Parrinello, *"Nuclear Quantum Effects in Solids Using a Colored-Noise Thermostat"*, Phys. Rev. Lett. 103, 30603 (2009)  
+DOI: [10.1103/PhysRevLett.103.030603](dx.doi.org/10.1103/PhysRevLett.103.030603) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1103/PhysRevLett.103.030603)  
 
 
 ### Path-Integral Langevin Equation Thermostats
@@ -67,11 +79,11 @@ The basic PIMD implementation in i-PI relies on a normal-modes
 integrator, and allows setting non-physical masses, so that both
 RPMD and CMD can be easily realized.
 
-*Main contributors:* Michele Ceriotti, Joshua More  
-*Implementation:*  
+**Main contributors:** Michele Ceriotti, Joshua More  
+**Implementation:**  
 M. Ceriotti, J. More, D. Manolopoulos, *"i-PI: A Python interface for ab initio path integral molecular dynamics simulations"*, Comp. Phys. Comm. 185(3), 1019 (2014)
 DOI: [10.1016/j.cpc.2013.10.027]( http://dx.doi.org/10.1016/j.cpc.2013.10.027)  ---  BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1016/j.cpc.2013.10.027)
-*Theory:* 
+**Theory:** 
 R. Feynman, A. Hibbs, *"Quantum Mechanics and Path Integrals"*, McGraw-Hill (1964)  
 M. Tuckerman, *"Statistical Mechanics and Molecular Simulations"*, Oxford Univ. Press (2008)
 
