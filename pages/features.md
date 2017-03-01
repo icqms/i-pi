@@ -31,7 +31,7 @@ to your manuscript!
 * [Direct Estimators for Isotope Fractionation](#direct-estimators-for-isotope-fractionation) (dev)
 * [Free-energy Perturbation Estimators for Isotope Fractionation](#free-energy-perturbation-estimators-for-isotoope-fractionation) (dev)
 * [Quantum Alchemical Transformation](#quantum-alchemical-transformation) (dev)
-* [Path Integral GLEs](#path-integral-gle)
+* [Path Integral GLEs](#path-integral-gles)
 * [Generalized Langevin Equation Thermostats](#generalized-langevin-equation-thermostats)
 * [Path-Integral Langevin Equation Thermostats](#path-integral-langevin-equation-thermostats)
 * [Path Integrals at Constant Pressure](#path-integrals-at-constant-pressure)
@@ -49,10 +49,10 @@ A multiple time step integration scheme allows for integration of different comp
 **Main contributors:** Venkat Kapil   
 **Implementation:**  
 V.Kapil, J.VandeVondele, M.Ceriotti *"Accurate molecular dynamics and nuclear quantum effects at low cost by multiple steps in real and imaginary time: using density functional theory to accelerate wavefunction methods"*, J. Chem. Phys. 144, 054111 (2016)  
-DOI: [10.1063/1.4941091](dx.doi.org/10.1063/1.4941091) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.4941091)  
+DOI: [10.1063/1.4941091](dx.doi.org/10.1063/1.4941091) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.4941091)  
 **Theory:**  
 M.Tuckerman, B.J.Berne *"Reversible multiple time scale molecular dynamics"*, J. Chem. Phys. 97, 1990 (1992)  
-DOI: [10.1063/1.463137](dx.doi.org/10.1063/1.463137) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.463137)  
+DOI: [10.1063/1.463137](dx.doi.org/10.1063/1.463137) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.463137)  
 
 ### Ring-Polymer Contraction
 
@@ -61,10 +61,10 @@ A ring-polymer contraction makes it possible to compute different components of 
 **Main contributors:** Michele Ceriotti, Venkat Kapil   
 **Implementation:**  
 V.Kapil, J.VandeVondele, M.Ceriotti *"Accurate molecular dynamics and nuclear quantum effects at low cost by multiple steps in real and imaginary time: using density functional theory to accelerate wavefunction methods"*, J. Chem. Phys. 144, 054111 (2016)
-DOI: [10.1063/1.4941091](dx.doi.org/10.1063/1.4941091) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.4941091)
+DOI: [10.1063/1.4941091](dx.doi.org/10.1063/1.4941091) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.4941091)
 **Theory:**   
 T.Markland, D.E.Manolopoulos *"An efficient ring polymer contraction scheme for imaginary time path integral simulations"*, J. Chem. Phys. 129, 024105 (2008)  
-DOI: [10.1063/1.2953308](dx.doi.org/10.1063/1.2953308) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.2953308)  
+DOI: [10.1063/1.2953308](dx.doi.org/10.1063/1.2953308) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.2953308)  
 
 ### Direct Estimators for Isotope Fractionation
 
@@ -85,20 +85,20 @@ obtained from the [GLE4MD website](http://gle4md.org/index.html?page=matrix).
 **Main contributors:** Michele Ceriotti  
 **Implementation:**  
 M. Ceriotti, G. Bussi, M. Parrinello, *"M. Colored-Noise Thermostats à la Carte"*, J. Chem. Theory Comput. 6, 1170–1180 (2010)  
-DOI: [10.1021/ct900563s](dx.doi.org/10.1021/ct900563s) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1021/ct900563s)  
+DOI: [10.1021/ct900563s](dx.doi.org/10.1021/ct900563s) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1021/ct900563s)  
 **Theory:**  
 *Optimal Sampling Efficiency* ---
 M. Ceriotti, G. Bussi, and M. Parrinello, *"Langevin Equation with Colored Noise for Constant-Temperature Molecular Dynamics Simulations"*, Phys. Rev. Lett. 102, 20601 (2009)  
-DOI: [10.1103/PhysRevLett.102.020601](dx.doi.org/10.1103/PhysRevLett.102.020601) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1103/PhysRevLett.102.020601)  
+DOI: [10.1103/PhysRevLett.102.020601](dx.doi.org/10.1103/PhysRevLett.102.020601) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1103/PhysRevLett.102.020601)  
 *Quantum Thermostat* --- 
 M. Ceriotti, G. Bussi, and M. Parrinello, *"Nuclear Quantum Effects in Solids Using a Colored-Noise Thermostat"*, Phys. Rev. Lett. 103, 30603 (2009)  
-DOI: [10.1103/PhysRevLett.103.030603](dx.doi.org/10.1103/PhysRevLett.103.030603) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1103/PhysRevLett.103.030603)  
+DOI: [10.1103/PhysRevLett.103.030603](dx.doi.org/10.1103/PhysRevLett.103.030603) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1103/PhysRevLett.103.030603)  
 *Delta Thermostat* ---
 M. Ceriotti and M. Parrinello, *"The δ-Thermostat: Selective Normal-Modes Excitation by Colored-Noise Langevin Dynamics"*, Procedia Comput. Sci. 1, 1607 (2010)  
-DOI: [10.1016/j.procs.2010.04.180](dx.doi.org/10.1016/j.procs.2010.04.180) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1016/j.procs.2010.04.180)  
+DOI: [10.1016/j.procs.2010.04.180](dx.doi.org/10.1016/j.procs.2010.04.180) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1016/j.procs.2010.04.180)  
 *MTS Thermostat* ---
 J. A. Morrone, T. E. Markland, M. Ceriotti, and B. J. Berne, *"Efficient Multiple Time Scale Molecular Dynamics: Using Colored Noise Thermostats to Stabilize Resonances"*, J. Chem. Phys. 134, 14103 (2011)  
-DOI: [doi:10.1063/1.3518369](dx.doi.org/doi:10.1063/1.3518369) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/doi:10.1063/1.3518369)  
+DOI: [doi:10.1063/1.3518369](dx.doi.org/doi:10.1063/1.3518369) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/doi:10.1063/1.3518369)  
 
 ### Path-Integral Langevin Equation Thermostats
 
@@ -108,7 +108,7 @@ optimally coupled to the ideal ring polymer frequencies
 **Main contributors:** Michele Ceriotti  
 **Implementation and Theory:**  
 M. Ceriotti, M. Parrinello, T. E. Markland, and D. E. Manolopoulos, *"Efficient stochastic thermostatting of path integral molecular dynamics"* J. Chem. Phys. 133, 124104 (2010).  
-DOI: [10.1063/1.3489925](dx.doi.org/10.1063/1.3489925) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.3489925)  
+DOI: [10.1063/1.3489925](dx.doi.org/10.1063/1.3489925) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.3489925)  
 
 
 ### Path Integrals at Constant Pressure

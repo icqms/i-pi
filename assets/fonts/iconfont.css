@@ -69,7 +69,7 @@
 .icon-star-outlined:before,
 .icon-thumbs-down:before,
 .icon-thumbs-up:before,
-.icon-tree:before,
+.icon-lab:before,
 .icon-tumblr:before,
 .icon-twitter:before,
 .icon-upload-to-cloud:before,
@@ -138,7 +138,7 @@
 .icon-star-outlined:before { content: "\f129"; }
 .icon-thumbs-down:before { content: "\f12a"; }
 .icon-thumbs-up:before { content: "\f12b"; }
-.icon-tree:before { content: "\f134"; }
+.icon-lab:before { content: "\f11b"; }
 .icon-tumblr:before { content: "\f12c"; }
 .icon-twitter:before { content: "\f12d"; }
 .icon-upload-to-cloud:before { content: "\f12e"; }
