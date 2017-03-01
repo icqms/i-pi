@@ -49,9 +49,23 @@ DOI: [10.1103/PhysRevLett.102.020601](dx.doi.org/10.1103/PhysRevLett.102.020601)
 *Quantum Thermostat* --- 
 M. Ceriotti, G. Bussi, and M. Parrinello, *"Nuclear Quantum Effects in Solids Using a Colored-Noise Thermostat"*, Phys. Rev. Lett. 103, 30603 (2009)  
 DOI: [10.1103/PhysRevLett.103.030603](dx.doi.org/10.1103/PhysRevLett.103.030603) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1103/PhysRevLett.103.030603)  
+*Delta Thermostat* ---
+M. Ceriotti and M. Parrinello, *"The δ-Thermostat: Selective Normal-Modes Excitation by Colored-Noise Langevin Dynamics"*, Procedia Comput. Sci. 1, 1607 (2010)  
+DOI: [10.1016/j.procs.2010.04.180](dx.doi.org/10.1016/j.procs.2010.04.180) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1016/j.procs.2010.04.180)  
+*MTS Thermostat* ---
+J. A. Morrone, T. E. Markland, M. Ceriotti, and B. J. Berne, *"Efficient Multiple Time Scale Molecular Dynamics: Using Colored Noise Thermostats to Stabilize Resonances"*, J. Chem. Phys. 134, 14103 (2011)  
+DOI: [doi:10.1063/1.3518369](dx.doi.org/doi:10.1063/1.3518369) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/doi:10.1063/1.3518369)  
 
+### Patm-Integral Langevin Equation Thermostats
 
-### Path-Integral Langevin Equation Thermostats
+Simple yet efficient Langevin thermostat for PIMD, with normal-modes thermostats
+optimally coupled to the ideal ring polymer frequencies 
+
+**Main contributors:** Michele Ceriotti  
+**Implementation:**  
+Ceriotti, M. et al., 2010. Efficient stochastic thermostatting of path integral molecular dynamics. The Journal of chemical physics, 133(12), p.124104. Available at: http://www.ncbi.nlm.nih.gov/pubmed/20886921 [Accessed July 24, 2013].
+M. Ceriotti, M. Parrinello, T. E. Markland, and D. E. Manolopoulos, *"Efficient stochastic thermostatting of path integral molecular dynamics"* J. Chem. Phys. 133, 124104 (2010).  
+DOI: [10.1063/1.3489925](dx.doi.org/10.1063/1.3489925) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.3489925)  
 
 
 ### Path Integrals at Constant Pressure
@@ -82,7 +96,7 @@ RPMD and CMD can be easily realized.
 **Main contributors:** Michele Ceriotti, Joshua More  
 **Implementation:**  
 M. Ceriotti, J. More, D. Manolopoulos, *"i-PI: A Python interface for ab initio path integral molecular dynamics simulations"*, Comp. Phys. Comm. 185(3), 1019 (2014)
-DOI: [10.1016/j.cpc.2013.10.027]( http://dx.doi.org/10.1016/j.cpc.2013.10.027)  ---  BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1016/j.cpc.2013.10.027)
+DOI: [10.1016/j.cpc.2013.10.027]( http://dx.doi.org/10.1016/j.cpc.2013.10.027)  ---  BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1016/j.cpc.2013.10.027)  
 **Theory:** 
 R. Feynman, A. Hibbs, *"Quantum Mechanics and Path Integrals"*, McGraw-Hill (1964)  
 M. Tuckerman, *"Statistical Mechanics and Molecular Simulations"*, Oxford Univ. Press (2008)
