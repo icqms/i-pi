@@ -25,16 +25,24 @@ reward the developers by spending 15 seconds to add one more citation
 to your manuscript!
 
 * [Finite-differences Suzuki-Chin PIMD](#finite-differences-suzuki-chin-pimd) (dev)
-
-
+* [Reweighting-based high-order PIMD](#reweighting-based-high-order-pimd) (dev)
+* [Multiple Time Step integrators](#multiple-time-step-integrators) (dev)
+* [Ring-Polymer Contraction](#ring-polymer-contraction)
+* [Direct Estimators for Isotope Fractionation](#direct-estimators-for-isotope-fractionation) (dev)
+* [Free-energy Perturbation Estimators for Isotope Fractionation](#free-energy-perturbation-estimators-for-isotoope-fractionation) (dev)
+* [Quantum Alchemical Transformation](#quantum-alchemical-transformation) (dev)
+* [Path Integral GLEs](#path-integral-gle)
+* [Generalized Langevin Equation Thermostats](#generalized-langevin-equation-thermostats)
+* [Path-Integral Langevin Equation Thermostats](#path-integral-langevin-equation-thermostats)
+* [Path Integrals at Constant Pressure](#path-integrals-at-constant-pressure)
 * [Path Integral Molecular Dynamics](#path-integral-molecular-dynamics)
 
 
 ### Finite-differences Suzuki-Chin PIMD
 
-### Reweighting-based high-order PIMD (dev)
+### Reweighting-based high-order PIMD 
 
-### Multiple Time Step integrators (dev)
+### Multiple Time Step integrators
 
 A multiple time step integration scheme allows for integration of different components of forces with different time steps. It becomes advantageous when the total force can be decomposed into a slowly varying expensive part and a rapidly varying cheap part. A larger time step can be used to integrate the former, there by reducing the number of expensive computations.
 
@@ -58,11 +66,11 @@ DOI: [10.1063/1.4941091](dx.doi.org/10.1063/1.4941091) --- BIBTEX: [fetch](http:
 T.Markland, D.E.Manolopoulos *"An efficient ring polymer contraction scheme for imaginary time path integral simulations"*, J. Chem. Phys. 129, 024105 (2008)  
 DOI: [10.1063/1.2953308](dx.doi.org/10.1063/1.2953308) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.2953308)  
 
-### Direct Estimators for Isotope Fractionation (dev)
+### Direct Estimators for Isotope Fractionation
 
 ### Free-energy Perturbation Estimators for Isotope Fractionation
 
-### Quantum Alchemical Transformation (dev)
+### Quantum Alchemical Transformation
 
 ### Path Integral GLEs
 
