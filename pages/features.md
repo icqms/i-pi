@@ -42,7 +42,7 @@ to your manuscript!
 
 Suzuki-Chin PIMD gives better convergence w.r.t. the number of imaginary time slices as compared to the standard scheme. The implementation uses a symplectic and time-reversible finite-difference scheme to compute the high order corrections to traditional PIMD.
 
-**Main contributors:** Venkat Kapil, Michele Ceriotti 
+**Main contributors:** Venkat Kapil, Michele Ceriotti   
 **Implementation:**  
 V.Kapil, J.Behler, M.Ceriotti *"High order path interals made easy"*, J. Chem. Phys. 145, 234103 (2016)  
 DOI: [10.1063/1.4971438](dx.doi.org/10.1063/1.4971438) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.4971438)  
@@ -59,7 +59,7 @@ DOI: [10.1016/0375-9601(95)00266-6](dx.doi.org/10.1016/0375-9601(95)00266-6) ---
 
 The Boltzmann weight assciated with the high order correction to standard PIMD is printed out as a property so that the high order estimate of an arbitrary position-dependent observable can be computed as a weighted average. 
 
-**Main contributors:** Michele Ceriotti , Guy A. R. Brian
+**Main contributors:** Michele Ceriotti , Guy A. R. Brian  
 **Implementation:**  
 M.Ceriotti, G.A.R.Brian, O.Riordan, D.E.Manolopolous *"The inefficiency of re-weighted sampling and the curse of system size in high-order path integration"*, Proc. R. Soc. A 468, 2-17 (2011)  
 DOI: [10.1098/rspa.2011.0413](dx.doi.org/10.1098/rspa.2011.0413) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1098/rspa.2011.0413)  
