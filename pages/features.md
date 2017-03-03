@@ -24,6 +24,7 @@ Finding these features readily available is saving you weeks of work:
 reward the developers by spending 15 seconds to add one more citation
 to your manuscript!
 
+* [Thermodynamic integrations](#thermodynamic-integrations) (dev)
 * [Finite-differences Suzuki-Chin PIMD](#finite-differences-suzuki-chin-pimd) (dev)
 * [Reweighting-based high-order PIMD](#reweighting-based-high-order-pimd) (dev)
 * [Multiple Time Step integrators](#multiple-time-step-integrators) (dev)
@@ -36,6 +37,18 @@ to your manuscript!
 * [Path-Integral Langevin Equation Thermostats](#path-integral-langevin-equation-thermostats)
 * [Path Integrals at Constant Pressure](#path-integrals-at-constant-pressure)
 * [Path Integral Molecular Dynamics](#path-integral-molecular-dynamics)
+
+
+### Thermodynamic integrations 
+
+Thermodynamic integrations are made easy with i-PI, through the connection of different sockets and the different weights one can assign to different forces. Possible to do harmonic (Debye model) to anharmonic integrations, or integrations between different kinds of potentials. Also, mass thermodynamic
+integrations easily done through the manual input of each atom's masses.
+
+**Main contributors:** Mariana Rossi, Michele Ceriotti   
+**Theory/Implementation:**  
+M. Rossi, P. Gasparotto, M.Ceriotti *"Anharmonic and Quantum Fluctuations in Molecular Crystals: A First-Principles Study of the Stability of Paracetamol"*, Phys. Rev. Lett. 117, 115702 (2016)  
+DOI: [10.1103/PhysRevLett.117.115702](dx.doi.org/10.1103/PhysRevLett.117.115702) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1103/PhysRevLett.117.115702)  
+
 
 
 ### Finite-differences Suzuki-Chin PIMD
@@ -147,7 +160,7 @@ The constant-pressure implementation allows for arbitrary
 thermostats to be applied to the cell degrees of freedom, and 
 work in both constant-shape and variable-cell mode. 
 
-**Main contributors:**  Michele Ceriotti, Joshua More  
+**Main contributors:**  Michele Ceriotti, Joshua More, Mariana Rossi  
 **Implementation:**   
 M. Ceriotti, J. More, D. Manolopoulos, *"i-PI: A Python interface for ab initio path integral molecular dynamics simulations"*, Comp. Phys. Comm. 185(3), 1019 (2014)  
 DOI: [10.1016/j.cpc.2013.10.027]( http://dx.doi.org/10.1016/j.cpc.2013.10.027)  ---  BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1016/j.cpc.2013.10.027)  
