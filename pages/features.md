@@ -41,11 +41,10 @@ to your manuscript!
 
 ### Thermodynamic integrations 
 
-Thermodynamic integrations are made easy with i-PI, through the connection of different sockets and the different weights one can assign to different forces. Possible to do harmonic (Debye model) to anharmonic integrations, or integrations between different kinds of potentials. Also, mass thermodynamic
-integrations easily done through the manual input of each atom's masses.
+Thermodynamic integrations are made easy with i-PI, through the connection of different sockets and the different weights one can assign to different forces. It is possible to do harmonic (Debye model) to anharmonic integration, or integrations between different kinds of potentials. Also, quantum thermodynamic integrations relative to mass are easily done through the manual input of each atom's masses.
 
 **Main contributors:** Mariana Rossi, Michele Ceriotti   
-**Theory/Implementation:**  
+**Implementation:**  
 M. Rossi, P. Gasparotto, M.Ceriotti *"Anharmonic and Quantum Fluctuations in Molecular Crystals: A First-Principles Study of the Stability of Paracetamol"*, Phys. Rev. Lett. 117, 115702 (2016)  
 DOI: [10.1103/PhysRevLett.117.115702](http://dx.doi.org/10.1103/PhysRevLett.117.115702) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1103/PhysRevLett.117.115702)   
 
@@ -53,7 +52,7 @@ DOI: [10.1103/PhysRevLett.117.115702](http://dx.doi.org/10.1103/PhysRevLett.117.
 
 ### Finite-differences Suzuki-Chin PIMD
 
-Suzuki-Chin PIMD gives better convergence w.r.t. the number of imaginary time slices as compared to the standard scheme. The implementation uses a symplectic and time-reversible finite-difference scheme to compute high order corrections to traditional PIMD.
+Suzuki-Chin PIMD gives better convergence w.r.t. the number of imaginary time slices as compared to the standard scheme. The implementation uses a symplectic and time-reversible finite-difference scheme to compute high order corrections to traditional PIMD for any empirical or ab initio forcefield.
 
 **Main contributors:** Venkat Kapil, Michele Ceriotti  
 **Implementation:**  
@@ -85,6 +84,7 @@ DOI: [10.1016/s0375-9601(97)00003-0](http://dx.doi.org/10.1016/s0375-9601(97)000
 M.Suzuki *"Hybrid exponential product formulas for unbounded operators with possible applications to Monte Carlo simulations"*, Phys. Lett. A 201, 425 (1995)  
 DOI: [10.1016/0375-9601(95)00266-6](http://dx.doi.org/10.1016/0375-9601(95)00266-6) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1016/0375-9601(95)00266-6)   
 
+
 ### Multiple Time Step integrators
 
 A multiple time step integration scheme allows for integration of different components of forces with different time steps. It becomes advantageous when the total force can be decomposed into a slowly varying expensive part and a rapidly varying cheap part. A larger time step can be used to integrate the former, there by reducing the number of expensive computations.
@@ -96,6 +96,7 @@ DOI: [10.1063/1.4941091](http://dx.doi.org/10.1063/1.4941091) --- BibTeX: [fetch
 **Theory:**  
 M.Tuckerman, B.J.Berne *"Reversible multiple time scale molecular dynamics"*, J. Chem. Phys. 97, 1990 (1992)  
 DOI: [10.1063/1.463137](http://dx.doi.org/10.1063/1.463137) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.463137)  
+
 
 ### Ring-Polymer Contraction
 
@@ -142,6 +143,7 @@ DOI: [10.1016/j.procs.2010.04.180](http://dx.doi.org/10.1016/j.procs.2010.04.180
 *MTS Thermostat* ---
 J. A. Morrone, T. E. Markland, M. Ceriotti, and B. J. Berne, *"Efficient Multiple Time Scale Molecular Dynamics: Using Colored Noise Thermostats to Stabilize Resonances"*, J. Chem. Phys. 134, 14103 (2011)  
 DOI: [doi:10.1063/1.3518369](http://dx.doi.org/doi:10.1063/1.3518369) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/doi:10.1063/1.3518369)  
+
 
 ### Path-Integral Langevin Equation Thermostats
 
