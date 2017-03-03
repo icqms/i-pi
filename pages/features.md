@@ -47,20 +47,20 @@ integrations easily done through the manual input of each atom's masses.
 **Main contributors:** Mariana Rossi, Michele Ceriotti   
 **Theory/Implementation:**  
 M. Rossi, P. Gasparotto, M.Ceriotti *"Anharmonic and Quantum Fluctuations in Molecular Crystals: A First-Principles Study of the Stability of Paracetamol"*, Phys. Rev. Lett. 117, 115702 (2016)  
-DOI: [10.1103/PhysRevLett.117.115702](dx.doi.org/10.1103/PhysRevLett.117.115702) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1103/PhysRevLett.117.115702)  
+DOI: [10.1103/PhysRevLett.117.115702](dx.doi.org/10.1103/PhysRevLett.117.115702) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1103/PhysRevLett.117.115702)   
 
 
 
 ### Finite-differences Suzuki-Chin PIMD
 
-Suzuki-Chin PIMD gives better convergence w.r.t. the number of imaginary time slices as compared to the standard scheme. The implementation uses a symplectic and time-reversible finite-difference scheme to compute the high order corrections to traditional PIMD.
+Suzuki-Chin PIMD gives better convergence w.r.t. the number of imaginary time slices as compared to the standard scheme. The implementation uses a symplectic and time-reversible finite-difference scheme to compute high order corrections to traditional PIMD.
 
 **Main contributors:** Venkat Kapil, Michele Ceriotti  
 **Implementation:**  
 V.Kapil, J.Behler, M.Ceriotti *"High order path interals made easy"*, J. Chem. Phys. 145, 234103 (2016)  
 DOI: [10.1063/1.4971438](dx.doi.org/10.1063/1.4971438) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.4971438)  
 **Theory:**  
-M.Tuckerman, B.J.Berne *"Applications of higher order composite factorization schemes in imaginary time path integral simulations
+S.Jang, S.Jang, G.A.Voth *"Applications of higher order composite factorization schemes in imaginary time path integral simulations
 "*, J. Chem. Phys. 115, 7832 (2001)  
 DOI: [10.1063/1.1410117](dx.doi.org/10.1063/1.1410117) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.1410117)  
 S.A.Chin *"Symplectic integrators from composite operator factorizations"*, Phys. Lett. A 226, 344 (1997)  
@@ -77,7 +77,7 @@ The Boltzmann weight assciated with the high order correction to standard PIMD i
 M.Ceriotti, G.A.R.Brian, O.Riordan, D.E.Manolopolous *"The inefficiency of re-weighted sampling and the curse of system size in high-order path integration"*, Proc. R. Soc. A 468, 2-17 (2011)  
 DOI: [10.1098/rspa.2011.0413](dx.doi.org/10.1098/rspa.2011.0413) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1098/rspa.2011.0413)  
 **Theory:**  
-S.Jang, S.Jang G.A.Voth *"Applications of higher order composite factorization schemes in imaginary time path integral simulations
+S.Jang, S.Jang, G.A.Voth *"Applications of higher order composite factorization schemes in imaginary time path integral simulations
 "*, J. Chem. Phys. 115, 7832 (2001)  
 DOI: [10.1063/1.1410117](dx.doi.org/10.1063/1.1410117) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.1410117)  
 S.A.Chin *"Symplectic integrators from composite operator factorizations"*, Phys. Lett. A 226, 344 (1997)  
