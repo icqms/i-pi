@@ -105,7 +105,7 @@ A ring-polymer contraction makes it possible to compute different components of 
 **Main contributors:** Michele Ceriotti, Venkat Kapil   
 **Implementation:**  
 V.Kapil, J.VandeVondele, M.Ceriotti *"Accurate molecular dynamics and nuclear quantum effects at low cost by multiple steps in real and imaginary time: using density functional theory to accelerate wavefunction methods"*, J. Chem. Phys. 144, 054111 (2016)
-DOI: [10.1063/1.4941091](http://dx.doi.org/10.1063/1.4941091) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.4941091)
+DOI: [10.1063/1.4941091](http://dx.doi.org/10.1063/1.4941091) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.4941091)  
 **Theory:**   
 T.Markland, D.E.Manolopoulos *"An efficient ring polymer contraction scheme for imaginary time path integral simulations"*, J. Chem. Phys. 129, 024105 (2008)  
 DOI: [10.1063/1.2953308](http://dx.doi.org/10.1063/1.2953308) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.2953308)  
