@@ -117,6 +117,20 @@ DOI: [10.1063/1.2953308](http://dx.doi.org/10.1063/1.2953308) --- BibTeX: [fetch
 ### Quantum Alchemical Transformation
 
 ### Path Integral GLEs
+Generalized Langevin Equations can be combined with a PIMD framework to
+accelerate convergence of quantum observables while retaining systematic
+approach to the quantum limit. Parameters formatted for i-PI input can be
+obtained from the [GLE4MD website](http://gle4md.org/index.html?page=matrix).
+
+**Main contributors:** Michele Ceriotti, Joshua More  
+**Implementation:**  
+M. Ceriotti, J. More, D. Manolopoulos, *"i-PI: A Python interface for ab initio path integral molecular dynamics simulations"*, Comp. Phys. Comm. 185(3), 1019 (2014)
+DOI: [10.1016/j.cpc.2013.10.027]( http://dx.doi.org/10.1016/j.cpc.2013.10.027)  ---  BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1016/j.cpc.2013.10.027)  
+**Theory:**  
+*PIGLET* --- M. Ceriotti and D. E. Manolopoulos, *"Efficient First-Principles Calculation of the Quantum Kinetic Energy and Momentum Distribution of Nuclei"*, Phys. Rev. Lett. 109, 100604 (2012)  
+DOI: [10.1103/PhysRevLett.109.100604](http://dx.doi.org/10.1103/PhysRevLett.109.100604) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1103/PhysRevLett.109.100604)  
+*PI+GLE* --- M. Ceriotti, D. E. Manolopoulos, and M. Parrinello, *"Accelerating the Convergence of Path Integral Dynamics with a Generalized Langevin Equation"*, J. Chem. Phys. 134, 84104 (2011)  
+DOI: [10.1063/1.3556661](http://dx.doi.org/10.1063/1.3556661) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.3556661)  
 
 
 ### Generalized Langevin Equation Thermostats
@@ -142,7 +156,10 @@ M. Ceriotti and M. Parrinello, *"The δ-Thermostat: Selective Normal-Modes Excit
 DOI: [10.1016/j.procs.2010.04.180](http://dx.doi.org/10.1016/j.procs.2010.04.180) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1016/j.procs.2010.04.180)  
 *MTS Thermostat* ---
 J. A. Morrone, T. E. Markland, M. Ceriotti, and B. J. Berne, *"Efficient Multiple Time Scale Molecular Dynamics: Using Colored Noise Thermostats to Stabilize Resonances"*, J. Chem. Phys. 134, 14103 (2011)  
-DOI: [doi:10.1063/1.3518369](http://dx.doi.org/doi:10.1063/1.3518369) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/doi:10.1063/1.3518369)  
+DOI: [10.1063/1.3518369](http://dx.doi.org/10.1063/1.3518369) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.3518369)  
+*"Hot-spot"* ---
+R. Dettori, M. Ceriotti, J. Hunger, C. Melis, L. Colombo, and D. Donadio, *"Simulating Energy Relaxation in Pump-Probe Vibrational Spectroscopy of Hydrogen-Bonded Liquids"*, J. Chem. Theory Comput. (2017)   
+DOI: [10.1021/acs.jctc.6b01108](http://dx.doi.org/10.1063/10.1021/acs.jctc.6b01108) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1021/acs.jctc.6b01108)  
 
 
 ### Path-Integral Langevin Equation Thermostats
