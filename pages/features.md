@@ -27,6 +27,7 @@ to your manuscript!
 * [Thermodynamic integrations](#thermodynamic-integrations) (dev)
 * [Finite-differences Suzuki-Chin PIMD](#finite-differences-suzuki-chin-pimd) (dev)
 * [Reweighting-based high-order PIMD](#reweighting-based-high-order-pimd) (dev)
+* [Perturbed Path Integrals](#perturbed-path-integrals) (dev)
 * [Multiple Time Step integrators](#multiple-time-step-integrators) (dev)
 * [Ring-Polymer Contraction](#ring-polymer-contraction)
 * [Direct Estimators for Isotope Fractionation](#direct-estimators-for-isotope-fractionation) (dev)
@@ -52,7 +53,9 @@ DOI: [10.1103/PhysRevLett.117.115702](http://dx.doi.org/10.1103/PhysRevLett.117.
 
 ### Finite-differences Suzuki-Chin PIMD
 
-Suzuki-Chin PIMD gives better convergence w.r.t. the number of imaginary time slices as compared to the standard scheme. The implementation uses a symplectic and time-reversible finite-difference scheme to compute high order corrections to traditional PIMD for any empirical or ab initio forcefield.
+Suzuki-Chin PIMD gives better convergence w.r.t. the number of imaginary time slices as compared to the 
+standard Trotter scheme. The implementation uses a symplectic and time-reversible 
+finite-difference algorithm to compute high order corrections to traditional PIMD for any empirical or ab initio forcefield.
 
 **Main contributors:** Venkat Kapil, Michele Ceriotti  
 **Implementation:**  
@@ -83,6 +86,19 @@ S.A.Chin *"Symplectic integrators from composite operator factorizations"*, Phys
 DOI: [10.1016/s0375-9601(97)00003-0](http://dx.doi.org/10.1016/s0375-9601(97)00003-0) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1016/s0375-9601(97)00003-0)  
 M.Suzuki *"Hybrid exponential product formulas for unbounded operators with possible applications to Monte Carlo simulations"*, Phys. Lett. A 201, 425 (1995)  
 DOI: [10.1016/0375-9601(95)00266-6](http://dx.doi.org/10.1016/0375-9601(95)00266-6) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1016/0375-9601(95)00266-6)   
+
+
+### Perturbed Path Integrals
+
+Effectively a zeroth-order cumulant expansion of the high-order
+PI Hamiltonian, perturbed path integrals offer an attractive 
+approach to compute thermochemistry of materials and molecules
+including quantum nuclei, as a post-processing of a Trotter trajectory.
+
+**Main contributors:** Igor Poltavski  
+**Theory:**  
+I. Poltavsky and A. Tkatchenko, *"Modeling Quantum Nuclei with Perturbed Path Integral Molecular Dynamics"*, Chem. Sci. 7, 1368 (2016)  
+DOI: [10.1039/C5SC03443D](http://dx.doi.org/10.1039/C5SC03443D) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1039/C5SC03443D)  
 
 
 ### Multiple Time Step integrators
