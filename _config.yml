@@ -159,19 +159,15 @@ defaults:
 #   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicon-Crap: Favicons, Chrome, Android & Apple Touch Buttons
 #                                                 More information » https://mathiasbynens.be/notes/touch-icons
 
-favicon-32x32:                          'favicon-32x32.png?v=2'
-touch-icon-192x192:                     'touch-icon-192x192.png'
-apple-touch-icon-180x180-precomposed:   'apple-touch-icon-180x180-precomposed.png'
-apple-touch-icon-152x152-precomposed:   'apple-touch-icon-152x152-precomposed.png'
-apple-touch-icon-144x144-precomposed:   'apple-touch-icon-144x144-precomposed.png'
-apple-touch-icon-120x120-precomposed:   'apple-touch-icon-120x120-precomposed.png'
-apple-touch-icon-114x114-precomposed:   'apple-touch-icon-114x114-precomposed.png'
-apple-touch-icon-76x76-precomposed:     'apple-touch-icon-76x76-precomposed.png'
-apple-touch-icon-72x72-precomposed:     'apple-touch-icon-72x72-precomposed.png'
-apple-touch-icon-precomposed:           'apple-touch-icon-precomposed.png'
-msapplication_tileimage:                'msapplication_tileimage.png'               # Size 144x144
-msapplication_tilecolor:                '#fabb00'
-
+favicon-32x32:                          'favicon-32x32.png'
+favicon-16x16:                          'favicon-16x16.png'
+apple-touch-icon:                     'apple-touch-icon.png'
+favicon-ico:                          'favicon.ico'
+mask-ico:                             'safari-pinned-tab.svg'
+mask-ico-color:                       '#5bbad5'
+msapplication_config:                'browserconfig.xml'
+theme-color:                         '#ffffff'
+manifest:                            'manifest.json'
 
 #       ______                __                __
 #      / ____/___ _________  / /_  ____  ____  / /__
@@ -195,6 +191,11 @@ msapplication_tilecolor:                '#fabb00'
 
 #socialmedia:
 #    twitter: phlow
+#    facebook: phlow.media
+
+
+#        ____  _
+#       / __ \(_)________ ___  _______
 #    facebook: phlow.media
 
 
@@ -273,8 +274,3 @@ asciidoctor:
     coderay-css: style
     icons: font
 
-
-# Sitemap generator
-gems:
-  - jekyll-sitemap
-  - jekil-seo-tag

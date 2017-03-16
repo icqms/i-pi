@@ -27,6 +27,7 @@ to your manuscript!
 * [Thermodynamic integrations](#thermodynamic-integrations) (dev)
 * [Finite-differences Suzuki-Chin PIMD](#finite-differences-suzuki-chin-pimd) (dev)
 * [Reweighting-based high-order PIMD](#reweighting-based-high-order-pimd) (dev)
+* [Perturbed Path Integrals](#perturbed-path-integrals) (dev)
 * [Multiple Time Step integrators](#multiple-time-step-integrators) (dev)
 * [Ring-Polymer Contraction](#ring-polymer-contraction)
 * [Direct Estimators for Isotope Fractionation](#direct-estimators-for-isotope-fractionation) (dev)
@@ -41,11 +42,10 @@ to your manuscript!
 
 ### Thermodynamic integrations 
 
-Thermodynamic integrations are made easy with i-PI, through the connection of different sockets and the different weights one can assign to different forces. Possible to do harmonic (Debye model) to anharmonic integrations, or integrations between different kinds of potentials. Also, mass thermodynamic
-integrations easily done through the manual input of each atom's masses.
+Thermodynamic integrations are made easy with i-PI, through the connection of different sockets and the different weights one can assign to different forces. It is possible to do harmonic (Debye model) to anharmonic integration, or integrations between different kinds of potentials. Also, quantum thermodynamic integrations relative to mass are easily done through the manual input of each atom's masses.
 
 **Main contributors:** Mariana Rossi, Michele Ceriotti   
-**Theory/Implementation:**  
+**Implementation:**  
 M. Rossi, P. Gasparotto, M.Ceriotti *"Anharmonic and Quantum Fluctuations in Molecular Crystals: A First-Principles Study of the Stability of Paracetamol"*, Phys. Rev. Lett. 117, 115702 (2016)  
 DOI: [10.1103/PhysRevLett.117.115702](http://dx.doi.org/10.1103/PhysRevLett.117.115702) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1103/PhysRevLett.117.115702)   
 
@@ -53,7 +53,9 @@ DOI: [10.1103/PhysRevLett.117.115702](http://dx.doi.org/10.1103/PhysRevLett.117.
 
 ### Finite-differences Suzuki-Chin PIMD
 
-Suzuki-Chin PIMD gives better convergence w.r.t. the number of imaginary time slices as compared to the standard scheme. The implementation uses a symplectic and time-reversible finite-difference scheme to compute high order corrections to traditional PIMD.
+Suzuki-Chin PIMD gives better convergence w.r.t. the number of imaginary time slices as compared to the 
+standard Trotter scheme. The implementation uses a symplectic and time-reversible 
+finite-difference algorithm to compute high order corrections to traditional PIMD for any empirical or ab initio forcefield.
 
 **Main contributors:** Venkat Kapil, Michele Ceriotti  
 **Implementation:**  
@@ -85,6 +87,20 @@ DOI: [10.1016/s0375-9601(97)00003-0](http://dx.doi.org/10.1016/s0375-9601(97)000
 M.Suzuki *"Hybrid exponential product formulas for unbounded operators with possible applications to Monte Carlo simulations"*, Phys. Lett. A 201, 425 (1995)  
 DOI: [10.1016/0375-9601(95)00266-6](http://dx.doi.org/10.1016/0375-9601(95)00266-6) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1016/0375-9601(95)00266-6)   
 
+
+### Perturbed Path Integrals
+
+Effectively a zeroth-order cumulant expansion of the high-order
+PI Hamiltonian, perturbed path integrals offer an attractive 
+approach to compute thermochemistry of materials and molecules
+including quantum nuclei, as a post-processing of a Trotter trajectory.
+
+**Main contributors:** Igor Poltavski  
+**Theory:**  
+I. Poltavsky and A. Tkatchenko, *"Modeling Quantum Nuclei with Perturbed Path Integral Molecular Dynamics"*, Chem. Sci. 7, 1368 (2016)  
+DOI: [10.1039/C5SC03443D](http://dx.doi.org/10.1039/C5SC03443D) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1039/C5SC03443D)  
+
+
 ### Multiple Time Step integrators
 
 A multiple time step integration scheme allows for integration of different components of forces with different time steps. It becomes advantageous when the total force can be decomposed into a slowly varying expensive part and a rapidly varying cheap part. A larger time step can be used to integrate the former, there by reducing the number of expensive computations.
@@ -97,6 +113,7 @@ DOI: [10.1063/1.4941091](http://dx.doi.org/10.1063/1.4941091) --- BibTeX: [fetch
 M.Tuckerman, B.J.Berne *"Reversible multiple time scale molecular dynamics"*, J. Chem. Phys. 97, 1990 (1992)  
 DOI: [10.1063/1.463137](http://dx.doi.org/10.1063/1.463137) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.463137)  
 
+
 ### Ring-Polymer Contraction
 
 A ring-polymer contraction makes it possible to compute different components of the forces on different number of imaginary time slices. In order to reap maximum benefits, the implementation is fully compatible with the multiple time step integrators.
@@ -104,7 +121,7 @@ A ring-polymer contraction makes it possible to compute different components of 
 **Main contributors:** Michele Ceriotti, Venkat Kapil   
 **Implementation:**  
 V.Kapil, J.VandeVondele, M.Ceriotti *"Accurate molecular dynamics and nuclear quantum effects at low cost by multiple steps in real and imaginary time: using density functional theory to accelerate wavefunction methods"*, J. Chem. Phys. 144, 054111 (2016)
-DOI: [10.1063/1.4941091](http://dx.doi.org/10.1063/1.4941091) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.4941091)
+DOI: [10.1063/1.4941091](http://dx.doi.org/10.1063/1.4941091) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.4941091)  
 **Theory:**   
 T.Markland, D.E.Manolopoulos *"An efficient ring polymer contraction scheme for imaginary time path integral simulations"*, J. Chem. Phys. 129, 024105 (2008)  
 DOI: [10.1063/1.2953308](http://dx.doi.org/10.1063/1.2953308) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.2953308)  
@@ -134,6 +151,20 @@ M.Shirts, D.Mobley, J.Chodera, "Chapter 4 Alchemical Free Energy Calculations: R
 DOI: [10.1016/S1574-1400(07)03004-6](http://dx.doi.org/10.1016/S1574-1400(07)03004-6) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1016/S1574-1400(07)03004-6)
 
 ### Path Integral GLEs
+Generalized Langevin Equations can be combined with a PIMD framework to
+accelerate convergence of quantum observables while retaining systematic
+approach to the quantum limit. Parameters formatted for i-PI input can be
+obtained from the [GLE4MD website](http://gle4md.org/index.html?page=matrix).
+
+**Main contributors:** Michele Ceriotti, Joshua More  
+**Implementation:**  
+M. Ceriotti, J. More, D. Manolopoulos, *"i-PI: A Python interface for ab initio path integral molecular dynamics simulations"*, Comp. Phys. Comm. 185(3), 1019 (2014)
+DOI: [10.1016/j.cpc.2013.10.027]( http://dx.doi.org/10.1016/j.cpc.2013.10.027)  ---  BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1016/j.cpc.2013.10.027)  
+**Theory:**  
+*PIGLET* --- M. Ceriotti and D. E. Manolopoulos, *"Efficient First-Principles Calculation of the Quantum Kinetic Energy and Momentum Distribution of Nuclei"*, Phys. Rev. Lett. 109, 100604 (2012)  
+DOI: [10.1103/PhysRevLett.109.100604](http://dx.doi.org/10.1103/PhysRevLett.109.100604) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1103/PhysRevLett.109.100604)  
+*PI+GLE* --- M. Ceriotti, D. E. Manolopoulos, and M. Parrinello, *"Accelerating the Convergence of Path Integral Dynamics with a Generalized Langevin Equation"*, J. Chem. Phys. 134, 84104 (2011)  
+DOI: [10.1063/1.3556661](http://dx.doi.org/10.1063/1.3556661) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.3556661)  
 
 
 ### Generalized Langevin Equation Thermostats
@@ -159,7 +190,11 @@ M. Ceriotti and M. Parrinello, *"The δ-Thermostat: Selective Normal-Modes Excit
 DOI: [10.1016/j.procs.2010.04.180](http://dx.doi.org/10.1016/j.procs.2010.04.180) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1016/j.procs.2010.04.180)  
 *MTS Thermostat* ---
 J. A. Morrone, T. E. Markland, M. Ceriotti, and B. J. Berne, *"Efficient Multiple Time Scale Molecular Dynamics: Using Colored Noise Thermostats to Stabilize Resonances"*, J. Chem. Phys. 134, 14103 (2011)  
-DOI: [doi:10.1063/1.3518369](http://dx.doi.org/doi:10.1063/1.3518369) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/doi:10.1063/1.3518369)  
+DOI: [10.1063/1.3518369](http://dx.doi.org/10.1063/1.3518369) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.3518369)  
+*"Hot-spot"* ---
+R. Dettori, M. Ceriotti, J. Hunger, C. Melis, L. Colombo, and D. Donadio, *"Simulating Energy Relaxation in Pump-Probe Vibrational Spectroscopy of Hydrogen-Bonded Liquids"*, J. Chem. Theory Comput. (2017)   
+DOI: [10.1021/acs.jctc.6b01108](http://dx.doi.org/10.1063/10.1021/acs.jctc.6b01108) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1021/acs.jctc.6b01108)  
+
 
 ### Path-Integral Langevin Equation Thermostats
 

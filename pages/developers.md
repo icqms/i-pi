@@ -14,8 +14,8 @@ permalink: "/about/developers/"
    at EPFL, Lausanne. 
  - [Riccardo Petraglia,](https://people.epfl.ch/riccardo.petraglia?lang=en) Scientist
    at COSMO.
- - [Mariana Rossi,](http://www.fhi-berlin.mpg.de/~rossi)
-   Group leader at FHI Berlin.
+ - [Mariana Rossi,](http://th.fhi-berlin.mpg.de/groups/sabia/)
+   Otto Hahn Group leader at Fritz Haber Institute, Berlin.
  - [Ondrej Marsalek,](https://github.com/OndrejMarsalek) Scientist at
    Stanford University.
  - [Venkat Kapil,](https://people.epfl.ch/venkat.kapil?lang=en) PhD at
