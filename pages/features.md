@@ -111,9 +111,27 @@ DOI: [10.1063/1.2953308](http://dx.doi.org/10.1063/1.2953308) --- BibTeX: [fetch
 
 ### Direct Estimators for Isotope Fractionation
 
+A direct estimator to evaluate the isotope fractionation ratios using a single operation (and a single keyword in the input file), without the need for a thermodynamic integration with respect to the mass of the isotope.
+
+**Main contributors:** Bingqing Cheng, Michele Ceriotti
+**Implementation and Theory:**  
+B.Cheng, M.Ceriotti, "Direct path integral estimators for isotope fractionation ratios." The Journal of chemical physics 141, 244112 (2015)
+DOI: [10.1063/1.4904293](http://dx.doi.org/10.1063/1.4904293) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.4904293)
+
+
 ### Free-energy Perturbation Estimators for Isotope Fractionation
 
 ### Quantum Alchemical Transformation
+
+An algorithm that performs Monte Carlo moves to change a chemical species into its isotopes.
+ 
+**Main contributors:** Bingqing Cheng, Michele Ceriotti
+**Implementation:**  
+B.Cheng, J.Behler, M.Ceriotti, "Nuclear Quantum Effects in Water at the Triple Point: Using Theory as a Link Between Experiments." The journal of physical chemistry letters 7(12), 2210-2215(2016).
+DOI: [10.1021/acs.jpclett.6b00729](dx.doi.org/10.1021/acs.jpclett.6b00729) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1021/acs.jpclett.6b00729)  
+**Theory:**  
+M.Shirts, D.Mobley, J.Chodera, "Chapter 4 Alchemical Free Energy Calculations: Ready for Prime Time?" Annual Reports in Computational Chemistry 41-59 (2007)
+DOI: [10.1016/S1574-1400(07)03004-6](http://dx.doi.org/10.1016/S1574-1400(07)03004-6) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1016/S1574-1400(07)03004-6)
 
 ### Path Integral GLEs
 
