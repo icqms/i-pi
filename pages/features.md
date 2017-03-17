@@ -126,11 +126,30 @@ DOI: [10.1063/1.4941091](http://dx.doi.org/10.1063/1.4941091) --- BibTeX: [fetch
 T.Markland, D.E.Manolopoulos *"An efficient ring polymer contraction scheme for imaginary time path integral simulations"*, J. Chem. Phys. 129, 024105 (2008)  
 DOI: [10.1063/1.2953308](http://dx.doi.org/10.1063/1.2953308) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.2953308)  
 
-### Direct Estimators for Isotope Fractionation
+### Direct Estimators for Isotope Fractionations
+
+A direct estimator to evaluate the isotope fractionation ratios using a single operation (and a single keyword in the input file), without the need for a thermodynamic integration with respect to the mass of the isotope.
+
+**Main contributors:** Bingqing Cheng, Michele Ceriotti  
+**Implementation and Theory:**   
+Cheng, Bingqing, Michele Ceriotti, *"Direct path integral estimators for isotope fractionation ratios"*, J. Chem. Phys. 141, 244112 (2015)
+DOI: [10.1063/1.4904293](http://dx.doi.org/10.1063/1.4904293) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.4904293)
 
 ### Free-energy Perturbation Estimators for Isotope Fractionation
 
+
 ### Quantum Alchemical Transformation
+
+An algorithm that performs Monte Carlo moves to change a chemical species into its isotopes.
+ 
+**Main contributors:** Bingqing Cheng, Michele Ceriotti  
+**Implementation:**  
+Cheng, Bingqing, J\"{o}rg Behler, Michele Ceriotti, *"Nuclear Quantum Effects in Water at the Triple Point: Using Theory as a Link Between Experiments."* J. Phys. Chem. Lett. 7(12), 2210-2215 (2016)  
+DOI: [10.1021/acs.jpclett.6b00729](dx.doi.org/10.1021/acs.jpclett.6b00729) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1021/acs.jpclett.6b00729)  
+**Theory:**   
+Michael R. Shirts, David L. Mobley, John D. Chodera, *"Alchemical Free Energy Calculations: Ready for Prime Time?"*, Ann. Rep. Comp. Chem. 41-59 (2007)  
+DOI: [10.1016/S1574-1400(07)03004-6](http://dx.doi.org/10.1016/S1574-1400(07)03004-6) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1016/S1574-1400(07)03004-6)
+
 
 ### Path Integral GLEs
 Generalized Langevin Equations can be combined with a PIMD framework to
