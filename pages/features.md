@@ -140,8 +140,8 @@ DOI: [10.1063/1.4904293](http://dx.doi.org/10.1063/1.4904293) --- BibTeX: [fetch
 
 ### Quantum Alchemical Transformation
 
-An algorithm that performs Monte Carlo moves to change a chemical species into its isotopes.
- 
+An algorithm that performs Monte Carlo moves to exchange the species between two atoms that are isotopes.
+
 **Main contributors:** Bingqing Cheng, Michele Ceriotti  
 **Implementation:**  
 B.Cheng, J.Behler, M.Ceriotti, "Nuclear Quantum Effects in Water at the Triple Point: Using Theory as a Link Between Experiments." The journal of physical chemistry letters 7(12), 2210-2215(2016).
