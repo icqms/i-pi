@@ -135,6 +135,14 @@ A direct estimator to evaluate the isotope fractionation ratios using a single o
 Cheng, Bingqing, Michele Ceriotti, *"Direct path integral estimators for isotope fractionation ratios"*, J. Chem. Phys. 141, 244112 (2015)
 DOI: [10.1063/1.4904293](http://dx.doi.org/10.1063/1.4904293) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.4904293)
 
+A direct estimator to evaluate the isotope fractionation ratios using a single operation (and a single keyword in the input file), without the need for a thermodynamic integration with respect to the mass of the isotope.
+
+**Main contributors:** Bingqing Cheng, Michele Ceriotti  
+**Implementation and Theory:**  
+B.Cheng, M.Ceriotti, "Direct path integral estimators for isotope fractionation ratios." The Journal of chemical physics 141, 244112 (2015)
+DOI: [10.1063/1.4904293](http://dx.doi.org/10.1063/1.4904293) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.4904293)
+
+
 ### Free-energy Perturbation Estimators for Isotope Fractionation
 
 
@@ -148,7 +156,7 @@ Cheng, Bingqing, J\"{o}rg Behler, Michele Ceriotti, *"Nuclear Quantum Effects in
 DOI: [10.1021/acs.jpclett.6b00729](dx.doi.org/10.1021/acs.jpclett.6b00729) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1021/acs.jpclett.6b00729)  
 **Theory:**   
 Michael R. Shirts, David L. Mobley, John D. Chodera, *"Alchemical Free Energy Calculations: Ready for Prime Time?"*, Ann. Rep. Comp. Chem. 41-59 (2007)  
-DOI: [10.1016/S1574-1400(07)03004-6](http://dx.doi.org/10.1016/S1574-1400(07)03004-6) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1016/S1574-1400(07)03004-6)
+DOI: [10.1016/S1574-1400(07)03004-6](http://dx.doi.org/10.1016/S1574-1400(07)03004-6) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1016/S1574-1400(07)03004-6)  
 
 
 ### Path Integral GLEs
