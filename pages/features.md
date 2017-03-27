@@ -148,7 +148,10 @@ B.Cheng, J.Behler, M.Ceriotti, "Nuclear Quantum Effects in Water at the Triple P
 DOI: [10.1021/acs.jpclett.6b00729](http://dx.doi.org/10.1021/acs.jpclett.6b00729) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1021/acs.jpclett.6b00729)  
 **Theory:**  
 M.Shirts, D.Mobley, J.Chodera, "Chapter 4 Alchemical Free Energy Calculations: Ready for Prime Time?" Annual Reports in Computational Chemistry 41-59 (2007)
-DOI: [10.1016/S1574-1400(07)03004-6](http://dx.doi.org/10.1016/S1574-1400(07)03004-6) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1016/S1574-1400(07)03004-6)
+DOI: [10.1016/S1574-1400(07)03004-6](http://dx.doi.org/10.1016/S1574-1400(07)03004-6) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1016/S1574-1400(07)03004-6) 
+Jian Liu, Richard S Andino, Christina M Miller, Xin Chen, David M Wilkins, Michele Ceriotti, David E Manolopoulos, "A surface-specific isotope effect in mixtures of light and heavy water." The Journal of Physical Chemistry C 117(6),2944-2951(2013)
+DOI: [10.1021/jp311986m](http://dx.doi.org/10.1021/jp311986m) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1021/jp311986m) 
+
 
 ### Path Integral GLEs
 Generalized Langevin Equations can be combined with a PIMD framework to
