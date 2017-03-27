@@ -138,19 +138,20 @@ DOI: [10.1063/1.4904293](http://dx.doi.org/10.1063/1.4904293) --- BibTeX: [fetch
 
 ### Free-energy Perturbation Estimators for Isotope Fractionation
 
+
 ### Quantum Alchemical Transformation
 
-An algorithm that performs Monte Carlo moves to exchange the species between two atoms that are isotopes.
-
+An algorithm that performs Monte Carlo moves to change a chemical species into its isotopes.
+ 
 **Main contributors:** Bingqing Cheng, Michele Ceriotti  
 **Implementation:**  
-B.Cheng, J.Behler, M.Ceriotti, "Nuclear Quantum Effects in Water at the Triple Point: Using Theory as a Link Between Experiments." The journal of physical chemistry letters 7(12), 2210-2215(2016).
-DOI: [10.1021/acs.jpclett.6b00729](http://dx.doi.org/10.1021/acs.jpclett.6b00729) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1021/acs.jpclett.6b00729)  
-**Theory:**  
-M.Shirts, D.Mobley, J.Chodera, "Chapter 4 Alchemical Free Energy Calculations: Ready for Prime Time?" Annual Reports in Computational Chemistry 41-59 (2007)
-DOI: [10.1016/S1574-1400(07)03004-6](http://dx.doi.org/10.1016/S1574-1400(07)03004-6) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1016/S1574-1400(07)03004-6) 
-Jian Liu, Richard S Andino, Christina M Miller, Xin Chen, David M Wilkins, Michele Ceriotti, David E Manolopoulos, "A surface-specific isotope effect in mixtures of light and heavy water." The Journal of Physical Chemistry C 117(6),2944-2951(2013)
-DOI: [10.1021/jp311986m](http://dx.doi.org/10.1021/jp311986m) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1021/jp311986m) 
+Cheng, Bingqing, J\"{o}rg Behler, Michele Ceriotti, *"Nuclear Quantum Effects in Water at the Triple Point: Using Theory as a Link Between Experiments."* J. Phys. Chem. Lett. 7(12), 2210-2215 (2016)  
+DOI: [10.1021/acs.jpclett.6b00729](dx.doi.org/10.1021/acs.jpclett.6b00729) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1021/acs.jpclett.6b00729)  
+**Theory:**   
+Michael R. Shirts, David L. Mobley, John D. Chodera, *"Alchemical Free Energy Calculations: Ready for Prime Time?"*, Ann. Rep. Comp. Chem. 41-59 (2007)  
+DOI: [10.1016/S1574-1400(07)03004-6](http://dx.doi.org/10.1016/S1574-1400(07)03004-6) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1016/S1574-1400(07)03004-6)  
+Jian Liu, Richard S Andino, Christina M Miller, Xin Chen, David M Wilkins, Michele Ceriotti, David E Manolopoulos, *"A surface-specific isotope effect in mixtures of light and heavy water"*, J. Phys. Chem. C 117(6), 2944-2951 (2013)  
+DOI: [10.1021/jp311986m](http://dx.doi.org/10.1021/jp311986m) --- BibTeX: [fetch](http://www.doi2bib.org/#/10.1021/jp311986m)
 
 
 ### Path Integral GLEs
