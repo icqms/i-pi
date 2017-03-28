@@ -10,7 +10,11 @@ permalink: "/about/features/"
 ---
 
 i-PI includes a large number of sophisticated methods, that
-have been contributed over the years by many people. Here you
+have been contributed over the years by many people. 
+While the core of i-PI is focused on molecular dynamics simulations,
+and path integral methods in particular, several techniques have been
+implemented that benefit from the decoupling of force evaluation and
+nuclear positions evolution. Here you
 will find a comprehensive list, that we try to keep updated. 
 Please get in touch if we are missing something or someone, and 
 please format your contribution section following this 
@@ -28,6 +32,8 @@ to your manuscript!
 * [Finite-differences Suzuki-Chin PIMD](#finite-differences-suzuki-chin-pimd) (dev)
 * [Reweighting-based high-order PIMD](#reweighting-based-high-order-pimd) (dev)
 * [Perturbed Path Integrals](#perturbed-path-integrals) (dev)
+* [Geometry Optimization](#geometry-optimization) (dev)
+* [Finite-differences Vibrational Analysis](#finite-differences-vibrational-analysis) (dev)
 * [Multiple Time Step integrators](#multiple-time-step-integrators) (dev)
 * [Ring-Polymer Contraction](#ring-polymer-contraction)
 * [Direct Estimators for Isotope Fractionation](#direct-estimators-for-isotope-fractionation) (dev)
@@ -99,6 +105,10 @@ including quantum nuclei, as a post-processing of a Trotter trajectory.
 **Theory:**  
 I. Poltavsky and A. Tkatchenko, *"Modeling Quantum Nuclei with Perturbed Path Integral Molecular Dynamics"*, Chem. Sci. 7, 1368 (2016)  
 DOI: [10.1039/C5SC03443D](http://dx.doi.org/10.1039/C5SC03443D) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1039/C5SC03443D)  
+
+### Geometry Optimization
+
+### Finite-differences Vibrational Analysis
 
 
 ### Multiple Time Step integrators
