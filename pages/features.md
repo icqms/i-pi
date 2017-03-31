@@ -107,6 +107,17 @@ I. Poltavsky and A. Tkatchenko, *"Modeling Quantum Nuclei with Perturbed Path In
 DOI: [10.1039/C5SC03443D](http://dx.doi.org/10.1039/C5SC03443D) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1039/C5SC03443D)  
 
 ### Geometry Optimization
+Several standard algorithms for geometry optimization have been implemented 
+to give the convenience of static calculations that are fully compatible with
+(PI)MD and other advanced sampling techniques.
+
+**Main contributors:** Benjamin Helfrecht, Sophie Mutzel, Riccardo Petraglia, Mariana Rossi  
+**Implementation:**  
+M. Rossi, P. Gasparotto, and M. Ceriotti, *"Anharmonic and Quantum Fluctuations in Molecular Crystals: A First-Principles Study of the Stability of Paracetamol"*, Phys. Rev. Lett. 117, 115702 (2016)  
+DOI: [10.1103/PhysRevLett.117.115702](http://dx.doi.org/10.1103/PhysRevLett.117.115702) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1103/PhysRevLett.117.115702)  
+**Theory:**  
+W. H. Press, *"Numerical Recipes: The Art of Scientific Computing"*, (Cambridge University Press, 2007)  
+
 
 ### Finite-differences Vibrational Analysis
 
