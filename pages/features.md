@@ -64,7 +64,7 @@ standard Trotter scheme. The implementation uses a symplectic and time-reversibl
 finite-difference algorithm to compute high order corrections to traditional PIMD for any empirical or ab initio forcefield.
 
 **Main contributors:** Venkat Kapil, Michele Ceriotti  
-**Implementation:**  
+**Implementation and Theory:**  
 V.Kapil, J.Behler, M.Ceriotti *"High order path interals made easy"*, J. Chem. Phys. 145, 234103 (2016)  
 DOI: [10.1063/1.4971438](http://dx.doi.org/10.1063/1.4971438) --- BIBTEX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.4971438)  
 **Theory:**  

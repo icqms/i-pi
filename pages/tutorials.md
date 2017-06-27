@@ -35,7 +35,7 @@ these codes are:
 
   * [CP2K](https://www.cp2k.org/)
   * [Lammps](http://lammps.sandia.gov/)
-  * [QuatumEspresso](http://quantum-espresso.org)
+  * [QuantumEspresso](http://quantum-espresso.org)
   * [Siesta](http://departments.icmab.es/leem/siesta/)
 
 Other examples
