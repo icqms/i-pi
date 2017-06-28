@@ -53,6 +53,7 @@ As of today, the following codes provide out-of-the-box an i-PI interface
 [Lammps](http://lammps.sandia.gov/),
 [Quantum ESPRESSO](http://quantum-espresso.org),
 [Siesta](http://departments.icmab.es/leem/siesta/),
-[FHI-aims](https://aimsclub.fhi-berlin.mpg.de/).
+[FHI-aims](https://aimsclub.fhi-berlin.mpg.de/),
+[Yaff](http://molmod.github.io/yaff/).
 If you are interested in interfacing your code to i-PI please get in touch,
 we are always glad to help!
