@@ -21,8 +21,7 @@ permalink: /index.html
 homepage: true
 ---
 
-About i-PI
-==========
+
 i-PI is a universal force engine interface
 written in Python, designed to be used together with an ab-initio (or 
 force-field based) evaluation of the interactions between the atoms. 
