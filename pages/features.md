@@ -39,6 +39,7 @@ to your manuscript!
 * [Direct Estimators for Isotope Fractionation](#direct-estimators-for-isotope-fractionation) (dev)
 * [Free-energy Perturbation Estimators for Isotope Fractionation](#free-energy-perturbation-estimators-for-isotoope-fractionation) (dev)
 * [Quantum Alchemical Transformation](#quantum-alchemical-transformation) (dev)
+* [Langevin Sampling for Noisy Forces](#langevin-sampling-for-noisy-forces) (dev)
 * [Path Integral GLEs](#path-integral-gles)
 * [Generalized Langevin Equation Thermostats](#generalized-langevin-equation-thermostats)
 * [Path-Integral Langevin Equation Thermostats](#path-integral-langevin-equation-thermostats)
@@ -173,6 +174,19 @@ Michael R. Shirts, David L. Mobley, John D. Chodera, *"Alchemical Free Energy Ca
 DOI: [10.1016/S1574-1400(07)03004-6](http://dx.doi.org/10.1016/S1574-1400(07)03004-6) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1016/S1574-1400(07)03004-6)  
 Jian Liu, Richard S Andino, Christina M Miller, Xin Chen, David M Wilkins, Michele Ceriotti, David E Manolopoulos, *"A surface-specific isotope effect in mixtures of light and heavy water"*, J. Phys. Chem. C 117(6), 2944-2951 (2013)  
 DOI: [10.1021/jp311986m](http://dx.doi.org/10.1021/jp311986m) --- BibTeX: [fetch](http://www.doi2bib.org/#/10.1021/jp311986m)
+
+
+
+### Langevin Sampling for Noisy Forces
+
+A modified Langevin thermostat that allows for constant-temperature dynamics with noisy forces by applying additional damping. The implementation contains a method to adjust the damping magnitude automatically.
+
+**Main contributors:** Jan Kessler, Thomas D. Kühne  
+**Theory:**  
+F. R. Krajewski, M. Parrinello, *"Linear scaling electronic structure calculations and accurate statistical mechanics sampling with noisy forces"*, Phys. Rev. B 73, 041105 (2006)
+DOI: [10.1103/PhysRevB.73.041105](dx.doi.org/10.1103/PhysRevB.73.041105) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1103/PhysRevB.73.041105)
+Y. Luo, A. Zen, S. Sorella, *"Ab initio molecular dynamics with noisy forces: Validating the quantum Monte Carlo approach with benchmark calculations of molecular vibrational properties "*, J. Chem. Phys. 141, 194112 (2014)
+DOI: [10.1063/1.4901430](dx.doi.org/10.1063/1.4901430) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.4901430)
 
 
 ### Path Integral GLEs
