@@ -183,9 +183,9 @@ A modified Langevin thermostat that allows for constant-temperature dynamics wit
 
 **Main contributors:** Jan Kessler, Thomas D. Kühne  
 **Theory:**  
-F. R. Krajewski, M. Parrinello, *"Linear scaling electronic structure calculations and accurate statistical mechanics sampling with noisy forces"*, Phys. Rev. B 73, 041105 (2006)
-DOI: [10.1103/PhysRevB.73.041105](dx.doi.org/10.1103/PhysRevB.73.041105) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1103/PhysRevB.73.041105)
-Y. Luo, A. Zen, S. Sorella, *"Ab initio molecular dynamics with noisy forces: Validating the quantum Monte Carlo approach with benchmark calculations of molecular vibrational properties "*, J. Chem. Phys. 141, 194112 (2014)
+F. R. Krajewski, M. Parrinello, *"Linear scaling electronic structure calculations and accurate statistical mechanics sampling with noisy forces"*, Phys. Rev. B 73, 041105 (2006)  
+DOI: [10.1103/PhysRevB.73.041105](dx.doi.org/10.1103/PhysRevB.73.041105) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1103/PhysRevB.73.041105)  
+Y. Luo, A. Zen, S. Sorella, *"Ab initio molecular dynamics with noisy forces: Validating the quantum Monte Carlo approach with benchmark calculations of molecular vibrational properties "*, J. Chem. Phys. 141, 194112 (2014)  
 DOI: [10.1063/1.4901430](dx.doi.org/10.1063/1.4901430) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1063/1.4901430)
 
 
@@ -197,7 +197,7 @@ obtained from the [GLE4MD website](http://gle4md.org/index.html?page=matrix).
 
 **Main contributors:** Michele Ceriotti, Joshua More  
 **Implementation:**  
-M. Ceriotti, J. More, D. Manolopoulos, *"i-PI: A Python interface for ab initio path integral molecular dynamics simulations"*, Comp. Phys. Comm. 185(3), 1019 (2014)
+M. Ceriotti, J. More, D. Manolopoulos, *"i-PI: A Python interface for ab initio path integral molecular dynamics simulations"*, Comp. Phys. Comm. 185(3), 1019 (2014)  
 DOI: [10.1016/j.cpc.2013.10.027]( http://dx.doi.org/10.1016/j.cpc.2013.10.027)  ---  BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1016/j.cpc.2013.10.027)  
 **Theory:**  
 *PIGLET* --- M. Ceriotti and D. E. Manolopoulos, *"Efficient First-Principles Calculation of the Quantum Kinetic Energy and Momentum Distribution of Nuclei"*, Phys. Rev. Lett. 109, 100604 (2012)  
