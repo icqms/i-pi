@@ -22,6 +22,8 @@
     url: "/resources/tutorials/"
   - title: "Getting Started"
     url: "/resources/getting_started/"
+  - title: "Forum"
+    url: "/resources/forum/"
 
 - title: "Search"
   url: "/search/"
