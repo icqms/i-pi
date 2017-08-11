@@ -56,3 +56,7 @@ As of today, the following codes provide out-of-the-box an i-PI interface:
 [Yaff](http://molmod.github.io/yaff/).
 If you are interested in interfacing your code to i-PI please get in touch,
 we are always glad to help!
+
+If you have questions about running i-PI calculations, or including new features
+into the code, you can get help on the [user forum](https://groups.google.com/forum/#!forum/ipi-users), 
+or on the [github developers branch](https://github.com/cosmo-epfl/i-pi-dev).
