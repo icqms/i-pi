@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Forum"
+title: "i-PI user Forum"
 permalink: "/resources/forum/"
 header:
     image_fullwidth: "wpig6_blue.jpg"
