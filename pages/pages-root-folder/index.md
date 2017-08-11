@@ -46,7 +46,7 @@ useful for your research, a citation to
 [Ceriotti, More, Manolopoulos, Comp. Phys. Comm. 185, 1019-1026 (2014)](http://dx.doi.org/10.1016/j.cpc.2013.10.027)
 would be appreciated.
 
-As of today, the following codes provide out-of-the-box an i-PI interface
+As of today, the following codes provide out-of-the-box an i-PI interface: 
 [CP2K](https://www.cp2k.org/),
 [DFTB+](http://www.dftb-plus.info/),
 [Lammps](http://lammps.sandia.gov/),
