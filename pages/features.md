@@ -39,7 +39,7 @@ to your manuscript!
 * [Direct Estimators for Isotope Fractionation](#direct-estimators-for-isotope-fractionation) (dev)
 * [Free-energy Perturbation Estimators for Isotope Fractionation](#free-energy-perturbation-estimators-for-isotoope-fractionation) (dev)
 * [Quantum Alchemical Transformation](#quantum-alchemical-transformation) (dev)
-* [Langevin Sampling for Noisy Forces](#langevin-sampling-for-noisy-forces) (dev)
+* [Langevin Sampling for Noisy or Dissipative Forces](#langevin-sampling-for-noisy-or-dissipative-forces) (dev)
 * [Path Integral GLEs](#path-integral-gles)
 * [Generalized Langevin Equation Thermostats](#generalized-langevin-equation-thermostats)
 * [Path-Integral Langevin Equation Thermostats](#path-integral-langevin-equation-thermostats)
@@ -177,12 +177,14 @@ DOI: [10.1021/jp311986m](http://dx.doi.org/10.1021/jp311986m) --- BibTeX: [fetch
 
 
 
-### Langevin Sampling for Noisy Forces
+### Langevin Sampling for Noisy or Dissipative Forces
 
-A modified Langevin thermostat that allows for constant-temperature dynamics with noisy forces by applying additional damping. The implementation contains a method to adjust the damping magnitude automatically.
+A modified Langevin thermostat that allows for constant-temperature dynamics with noisy or dissipative forces by applying additional damping or noise for compensation. The implementation contains a method to adjust the amount of compensation automatically.
 
 **Main contributors:** Jan Kessler, Thomas D. Kühne  
 **Theory:**  
+T. D. Kühne, M. Krack, F. R. Mohamed, M. Parrinello, *"Efficient and Accurate Car-Parrinello-like Approach to Born-Oppenheimer Molecular Dynamics"*, Phys. Rev. Lett. 98, 066401 (2007)  
+DOI: [10.1103/PhysRevLett.98.066401](dx.doi.org/10.1103/PhysRevLett.98.066401) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1103/PhysRevLett.98.066401)  
 F. R. Krajewski, M. Parrinello, *"Linear scaling electronic structure calculations and accurate statistical mechanics sampling with noisy forces"*, Phys. Rev. B 73, 041105 (2006)  
 DOI: [10.1103/PhysRevB.73.041105](dx.doi.org/10.1103/PhysRevB.73.041105) --- BibTeX: [fetch](http://www.doi2bib.org/#/doi/10.1103/PhysRevB.73.041105)  
 Y. Luo, A. Zen, S. Sorella, *"Ab initio molecular dynamics with noisy forces: Validating the quantum Monte Carlo approach with benchmark calculations of molecular vibrational properties "*, J. Chem. Phys. 141, 194112 (2014)  
