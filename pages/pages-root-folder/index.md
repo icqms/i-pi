@@ -22,6 +22,17 @@ homepage: true
 ---
 
 
+# i-PI v2 beta is out for testing!
+**The second release of i-PI is currently being prepared for release.
+A number of new features and improved infrastructure components will
+be merged over the next few weeks, and become available in the master
+branch of the [developers repo](https://github.com/cosmo-epfl/i-pi-dev)
+as well as in the [official i-PI repo](https://github.com/i-pi/i-pi).
+This is the time to report bugs and help us make this release efficient 
+and stable!**
+
+
+
 i-PI is a universal force engine interface
 written in Python, designed to be used together with an ab-initio (or 
 force-field based) evaluation of the interactions between the atoms. 
