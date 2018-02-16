@@ -5,6 +5,7 @@
 # this work, you have to use › layout: frontpage
 #
 layout: page
+title: i-PI v2 beta is out for testing!
 header:
   image_fullwidth: wpig6_blue.jpg
 
@@ -22,7 +23,6 @@ homepage: true
 ---
 
 
-## i-PI v2 beta is out for testing!
 **The second release of i-PI is currently being prepared for release.
 A number of new features and improved infrastructure components will
 be merged over the next few weeks, and become available in the master
